@@ -1,112 +1,103 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: whitesmoke;
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+  text-align: right;
+  margin-right: 20px;
 }
 
-.whole {
-  display: flex;
-  font-size: 40px;
-  justify-content: space-between;
-  text-transform: uppercase;
-  color: #2c4152;
-  padding: 0px 90px;
+header h2 {
+  display: inline-block;
+  margin: 0 10px;
 }
-header a {
+
+header h2 a {
+  font-family: "Times New Roman", Times, serif;
   color: black;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px 20px;
+  cursor: pointer;
   text-decoration: none;
-  text-align: right;
-  line-height: 23px;
-  font-family: sans-serif;
-  text-transform: capitalize;
 }
-.main {
-  /* margin: 8px 6px; */
-  padding: 0px 100px;
-  border: 0px;
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.main a {
-  text-decoration: none;
-  padding: 14px 16px;
-  text-transform: uppercase;
+
+header h2 a:hover {
   color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  display: inline-flex;
+  text-decoration: underline;
+
 }
+
 h1 {
-  margin: 0%;
-  display: inline-flex;
+  margin-bottom: 0;
+  text-align: center;
   cursor: pointer;
 }
-h2 {
-  font-size: small;
-  margin: 0%;
-  padding: 12px 14px;
-  display: inline-flex;
-}
-.main a:hover {
-  font-style: bold;
-  background-color: lightblue;
-  color: black;
-}
-/* p {
-  margin: 0%;
-  width: "100%";
-} */
-.search {
-  /* align-items: end; */
-  /* padding-left:10px; */
-  /* color: lightyellow; */
-  margin-left: 30px;
-  width: 160px;
-  height: 30px;
-  border-radius: 25px;
-}
-.ho {
+
+.main {
   display: flex;
-  text-shadow: 10%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
 }
-/* .search1 {
-  /* background-color: lightyellow; */
-  /* width: 200px; */
-  /* height: 50px; */
+
+.main a {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.wishlist {
+  display: flex;
+  align-items: center;
+}
+
+.wishlist img {
+  margin: 0 10px;
+}
 
 .click {
-  background-image: url("https://assets.ajio.com/static/img/404.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-  width: 100vw;
-  /* width:160vw; */
+  text-align: center;
+  margin-top: 50px;
 }
-.home {
-  width: 100vw;
-  height: 100vh;
+
+.button-container {
+  margin-bottom: 20px;
 }
-.click button{
-  /* color: red; */
-  margin-top: 490px;
-  margin-right: 375px;
-  width: 200px;
-  height: 55px;
-  /* display: flex; */
-  /* justify-content: end; */
-   border: 2px solid red;
-   font-size: x-large;
+
+.click-button {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
 }
-.bttn{
-  display: flex;
-  justify-content: end;
+
+.click-button:hover {
+  background-color: #f0f0f0;
 }
-.wish{
-  padding-left: 10px;
-  display: flex;
-  padding-right: 10px;
+
+a {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
